@@ -23,7 +23,7 @@ export const useSocket = ({
   useEffect(() => {
     // Connect to WebSocket server
     const serverUrl = process.env.NODE_ENV === 'production' 
-      ? window.location.origin 
+      ? "anonymous-chat-production-4962.up.railway.app"
       : 'http://localhost:3001';
     
     socketRef.current = io(serverUrl);
