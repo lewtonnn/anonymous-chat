@@ -1,0 +1,71 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/loader
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+.env
+.env.local
+/.yalc
+yalc.lock
+versions.json
+libs/shared/experimentation-specs/src/specifications/output/*
+.git-credentials
+.github/config
+/.nx
+# System Files
+.DS_Store
+Thumbs.db
+
+**/.next
+.dist
+libs/shared/util-tenant-config/src/lib/mappings.*.json
+libs/shared/util-tenant-config/src/lib/mappings.json
+
+# Scripts
+tools/scripts/import-translations/credentials.json
+tools/scripts/import-translations/google-token.json
+tools/scripts/webshop-import-translations/google-token.json
+/translations
+#apps/webshop-experience-layer/src/translations
+# phoenix-config-saver.sh
+
+tools/make-model-data/*.csv
+
+Private_G1_chain.pem
+
+vite.config.*.timestamp*
+
+# loc files
+package-lock.json
+yarn.lock
+
+# Exclude toggle.json file from utils directory
+tools/scripts/deploy_scripts/src/utils/toggle.json
+
+vitest.config.*.timestamp*
+apps/sigurd/src/assets/mappings/
